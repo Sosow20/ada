@@ -17,8 +17,8 @@ function nombreCarré(nombre) {
     
 }
 
-console.log(nombreCarré(3))
-//console.log(nombreCarré(2))
+// console.log(nombreCarré(3))
+// console.log(nombreCarré(2))
 
 // Etape 2
 
@@ -27,7 +27,7 @@ let result = nombreCarré(3)
 function multiplication (result) {
     return result * 10
 }
-console.log(multiplication(result))
+// console.log(multiplication(result))
 
 
 

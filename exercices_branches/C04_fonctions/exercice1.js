@@ -9,22 +9,22 @@
 // Objectif : Voir dans la console : “Le résultat de la somme est X ” “Le résultat de la somme est Y” “Le résultat de la somme est Z”
 
 
-// fonction addition3Numbers()
+// Etape 1 fonction addition3Numbers():
 
-// function addition3Numbers(somme){
-//     return `le résultat de la somme est ${somme}`
+function addition3Numbers(somme){
+    return `le résultat de la somme est ${somme}`
     
-// }
-// console.log(addition3Numbers(1 + 2 + 3))
+}
+console.log(addition3Numbers(1 + 2 + 3))
 
 
-// function addition3NumbersWithArg()
+// Etape 2 function addition3NumbersWithArg():
 
-// function addition3NumbersWithArg(number1, number2, number3){
-//     let somme = number1 + number2 + number3
-//     console.log("le résultat de la somme est", somme)
-// }
-// addition3NumbersWithArg(1, 2, 3)
-// addition3NumbersWithArg(6, 8, 2)
-// addition3NumbersWithArg(8, 10, 1)
+function addition3NumbersWithArg(number1, number2, number3){
+    let somme = number1 + number2 + number3
+    console.log("le résultat de la somme est", somme)
+}
+addition3NumbersWithArg(1, 2, 3)
+addition3NumbersWithArg(6, 8, 2)
+addition3NumbersWithArg(8, 10, 1)
 
